@@ -32,20 +32,24 @@ h1 {
 
 
 .titleArea {
-	height:70%;
+	height:65%;
 	display:flex;
 	justify-content: center;
 	align-items: center;
 }
 
-.buttonTitle {
+.buttonTitleBox {
 	border:none;
-	border-radius: 25px;
+	border-radius: 80px;
 	padding: 1em 2em;
-	margin-top: 1em;
+	margin-top: 0.5em;
 	font-weight: 0.8;
 	color:white;
 	font-stretch: expanded;
+}
+
+.bB-Border-Radius {
+	border-radius: 80px;
 }
 
 .bB-bgcolor {
@@ -55,6 +59,7 @@ h1 {
 .buttonArea{
 	display: flex;
 	justify-content: center;
+	align-items: center;
 }
 
 
